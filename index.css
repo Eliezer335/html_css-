@@ -8,11 +8,22 @@ body {
     width: 100%;
     height: 100vh;
     background-color: black;
+
+    display: flex;
+    align-items: center;
+   
+
+}
+
+.child_big_box{
+    width: 100%;
+    height: 40vh;
+    background-color: blue;
+
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-
 }
 
 .child_box {
